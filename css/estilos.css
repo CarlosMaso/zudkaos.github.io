@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+    height: 100vh; /* Esto asegura que todo el viewport vertical esté cubierto */
+    margin-right: 1%;
+    background-color: rgb(241, 218, 155);
+}
+#container{
+    margin: 5%;
+}
+img{
+    width: 300px;
+}
+#menu-plegable{
+    display: none;
+}
+
+p{
+    text-align: justify;
+}
+
+.azul{
+    color: blue;
+}
+.verde{
+    color:green;
+}
+.rojo{
+    color:red;
+}
+
+.morado{
+    color:purple;
+}
+
+.gris{
+    color:rgb(92, 92, 92);
+}
+
+.lista{
+    text-align: left;
+}
+
+table{
+   margin-left: 5%;
+}
+
+.tabla_NPC tr, td{
+    border: 1px solid black;
+    background-color: white;
+    width: 500px;
+}
+
+.tabla_NPC th{
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+@media (max-width: 800px) {
+    body{
+        text-align: center;
+        height: 100vh; /* Esto asegura que todo el viewport vertical esté cubierto */
+        margin: 0; /* Elimina el margen predeterminado del body */
+        background-color: rgb(241, 218, 155);
+    }
+    #container{
+        margin: 5%;
+    }
+    img{
+        width: 300px;
+    }
+    #menu-plegable{
+        display: none;
+    }
+    p{
+        text-align: justify;
+    }
+    .azul{
+        color: blue;
+    }
+    .verde{
+        color:green;
+    }
+    .rojo{
+        color:red;
+    }
+    .morado{
+        color:purple;
+    }
+    .gris{
+        color:rgb(92, 92, 92);
+    }
+    
+    .lista{
+        text-align: left;
+    }
+
+    table{
+        margin-left: 0%;
+     }
+
+    .tabla_NPC tr, td{
+        border: 1px solid black;
+        background-color: white;
+        width: 500px;
+    }
+    
+    .tabla_NPC th{
+        border: 1px solid black;
+        background-color: lightblue;
+    }
+    
+}
