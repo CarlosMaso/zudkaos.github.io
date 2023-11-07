@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../css/estilos.css">
+    <script src="../../js/script.js"></script>
+    <title>Zudkaos</title>
+</head>
+<body>
+    <header>
+        <div><img src="../../img/img_personajes/cambiaOfici.jpeg" alt="cambiOfici"></div>
+    </header>
+
+    <menu>
+        <button onclick="desplegar()">Volver a:</button>
+        <div id="menu-plegable">
+            <a href="../salimar.html">Tienda de Salimar</a><br><br>
+            <a href="../rocksmith.html">Tienda de Rocksmith</a><br><br>
+            <a href="../reptilia.html">Tienda de Reptilia</a><br><br>
+            <a href="../mol_masbug/mol_masbug.html">Tienda de Mol Masbug</a><br><br>
+        </div>
+    </menu>
+
+<h1>Cambia ofici</h1>
+
+<p>
+    "Vos acosteu a una estatua dún home amb un llibre en una ma i una pluma en l'altra. Sentiu una veu que diu: Diuen que el destí está escrit, pero nosaltres tenim el poder de cambiar el curs de l'historia:"
+</p>
+
+<p><span class="verde">Per 5 de plata pots cambiar d'ofici.</span></p>
+
+<p><strong>Guerreros:</strong></p>
+<div class="lista">
+    <ul>
+        <li><strong>Caballero</strong>: Puede ir con una espada y escudo (más equilibrado) o con dos espadas (más fuerza). Ataque +5, Defensa +5</li><br>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Estoque:</strong><br> Realiza un estoque con la espada que inflige 30 de daño (20 de maná)</td>
+                <td><strong>Alma Guerrera:</strong> <br>Por cada enemigo derrotado A+2 permanente (Pasiva)</td>
+                <td><strong>Golpe giratorio:</strong><br> Golpe de 360º que inflige 30 de daño a todos los enemigos alrededor. (30 de maná)</td>
+                <td><strong>Boost defensivo:</strong> <br>Te acostumbras a la armadura y tu defensa sube +10 de forma permanente (Pasiva)</td>
+                <td><strong>Parry:</strong><br> devuelve el ataque (descontado) al enemigo. (40 de maná).</td>
+                <td> <strong>Danza de  espadas:</strong> <br>Lanza 2 dados. Realiza una danza de cortes que provoca 20 de daño por número sacado. (60 de maná)</td>
+                <td><strong>Frenesí:</strong> <br>Atacas 3 veces seguidas tirando el dado de acierto (par e impar) (100 de maná).</td>
+            </tr>
+        </table>
+        <br>
+        <li><strong>Arquero</strong>: Ataca a distancia mientras tengas flechas, sino siempre puedes pegar con tu arco desde cerca. Ataque +5, Agilidad +5</li><br>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Triple flecha:</strong><br>Lanza tres flechas seguidas que causan 10 de daño cada una.(20 de maná)</td>
+                <td><strong>Imparable:</strong><br>Tus flechas atraviesan a los enemigos golpeando también a los que estén detrás de ellos.(siempre que estén uno al lado de otro) (Pasiva)</td>
+                <td><strong>Recuperar flechas:</strong><br> Rellena tu carcaj (30 de maná)</td>
+                <td><strong>Flecha Envenenada:</strong> <br>Envenena a un enemigo, 20 de daño por turno. (40 de maná)</td>
+                <td><strong>Francotirador:</strong> <br>Tus flechas ahora llegan hasta 3 casillas de distancia (Pasiva)</td>
+                <td><strong>Lluvia de flechas:</strong><br>Generas una lluvia de flechas que golpean a todos los enemigos con el daño de ataque que poseas.(60 de maná)</td>
+                <td><strong>Flecha de la muerte:</strong><br> Lanzas una flecha con el doble de tu fuerza de ataque (100 de maná)</td>
+            </tr>
+        </table>
+        <br>
+        <li><strong>Bárbaro</strong>: Armas grandes a dos manos. Fuerza a tope.  Ataque +10</li><br>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Martillazo:</strong><br> Acierta con tu ataque sin tirar dados.(20 maná)</td>
+                <td><strong>Ataque giratorio:</strong><br> Giras con tu martillo causando 30 de daño a los enemigos que estén a tu alrededor. (30 de maná)</td>
+                <td><strong>Musculitos:</strong> <br>Defensa +10 de forma permanente (Pasiva).</td>
+                <td><strong>Sirviente de Wexzar</strong><br> Por cada enemigo derrotado sumale 2 a tu daño base.</td>
+                <td><strong>Tanque:</strong><br> Defensa +20 de forma permanente (Pasiva)</td>
+                <td><strong>Pago de vida</strong><br> Reduce tu vida a la mitad, pero tu ataque aumenta 50.</td>
+                <td><strong>Berserk:</strong><br> No recibes daño durnate 2 turnos (100 maná)</td>
+            </tr>
+        </table>
+        <br>
+        <li><strong>Paladin</strong>: Lanzas que con un golpe pueden hacer retroceder. Defensa +5, Agilidad +5</li><br>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Estoque: </strong> <br>Lanzas un golpe que quita 20 de daño directo. (20 de maná)</td>
+                <td><strong>Empuje:</strong><br>Golpeas al enemigo con 30 de daño y lo haces retroceder 2 casillas (20 de maná)</td>
+                <td><strong>Sanación:</strong><br> Recuperas 40 de vida (40 de maná)</td>
+                <td><strong>Protección: </strong><br> Evita un ataque (40 de maná)</td>
+                <td><strong>Frenesí de lanzas:</strong><br> Lanza un dado, ese número Ataque base +10 daño por número de dato. (60 maná)</td>
+                <td><strong>Aura curativa:</strong> <br>Todo el grupo se cura 50 de vida (60 de maná)</td>
+                <td><strong>Justa:</strong><br>Ataca a un enemigo, por cada casilla de distancia se suma 10 a tu ataque base, con un máximo de 5 casillas. (100 de maná)</td>
+            </tr>
+        </table>
+        <br>
+        <li><strong>Monje</strong>: Artes marciales. A puñetazos y patadas. Defensa +5, Agilidad +5</li><br>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Destreza:</strong><br> Obtienes Agilidad +2 por cada enemigo derrotado (Pasiva)</td>
+                <td><strong>Danza de la serpiente</strong><br> Golpeas puntos vitales de forma que haces 30 de daño y paralizas durante 1 turno (20 de maná)</td>
+                <td><strong>Concentración</strong><br> Obtienes Defensa y Defensa Mágica +20 permanente (Pasiva)</td>
+                <td><strong>Furia del mono</strong><br> Lanza 2 dados, haces 5 de daño x número de los dados. (30 de maná)</td>
+                <td><strong>Disciplina</strong><br>Cada golpe que te den en este turno te recupera 10 puntos la vida. (50 maná)</td>
+                <td><strong>Meditación</strong><br>Por cada turno que te pases meditando ganas 3 puntos de habilidad para repartir (Pasiva)</td>
+                <td><strong>Golpe del dragón</strong><br> Das un golpe tan concentrado que haces el doble de tu ataque base de daño (100 maná)</td>
+            </tr>
+        </table>
+        <br>
+        <li><strong>Ranger</strong>: Guerrero técnico. Usan látigos y pueden domar un animal. Ataque +5, Agilidad +5 </li><br>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Domar:</strong><br>Doma un animal, este será tu acompañante hasta que muera o lo cambie por otro (20 de maná)</td>
+                <td><strong>Entrenamiento:</strong><br>Tu animal subirá de nivel cada 500 puntos de EXP Su vida aumentará en 10 y podrás darle 5 puntos de habilidad a cada nivel. (Pasiva)</td>
+                <td><strong>Latigazos:</strong><br>Haces que tu animal ataque dos veces (40 de maná)</td>
+                <td><strong>Recuperación</strong><br>Recuperas la vida de tu animal (60 de maná)</td>
+                <td><strong>Equipo:</strong><br>Puedes domar otro animal.</td>
+                <td><strong>Latigazo traicionero:</strong><br>Inmovilizas al enemigo durante 2 turnos. (60 de maná)</td>
+                <td><strong>Evolución:</strong><br>Tu animal evoluciona en una forma humanoide, puede aprender un oficio de guerrero (excepto Domador) (empieza a nivel 1 de ese ofico sin perder las bonificaciones de los niveles que ha ganado como animal) (empieza con 20 de maná)(100 de maná)</td>
+            </tr>
+        </table>
+        <br>
+    </ul>
+</div>
+
+<p><strong>Magos:</strong></p>
+<div class="lista">
+    <ul>
+        <li>Mago Elemental: Se especializan en un elemento de la naturaleza. Con sus efectos propios. Ataque Mágico +5, Defensa Mágica +5</li><br>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Esfera elemental</strong><br> Creas una esfera con el poder de tu elemento y al lanzarla inflige 20 de daño (20 de maná)</td>
+                <td><strong>Resquicio:</strong><br>Tus ataques dejan un resquicio elemental de 10 de daño por turno (2 turnos) (Pasiva)</td>
+                <td><strong>Cadenas elementales:</strong> (30 de maná)<br>
+                    <u>Aire:</u> hace levitar al enemigo 1 turno + 30 daño de caída.<br><br>
+                    <u>Tierra:</u> enemigo soterrado por rocas durante 2 turnos +20 daño por aplastamiento.<br><br>
+                    <u>Fuego: </u>circulo defuego alrededor del enemigo que le impide moverse 1 turno +30 daño por quemaduras.<br><br>
+                    <u>Agua: </u> sumerge dentro de una esfera de agua al enemigo 1 +30 daño por asfixia.<br><br>
+                    <u>Electro</u>se queda electrocutado por 2 turnos +20 daño.<br><br>
+                    <u>Metal:</u>Crea unas cadenas que atan y pesan tanto que se queda sin poder moverse durante 2 turnos. +20 de daño.<br><br>
+                    <u>Madera:</u>arboles atan al enemigo durante 2 turnos. +20 de daño.<br><br>
+                    <u>Hielo: </u>Se queda congelado durante 1 turno, daño +30 por congelación.<br><br>
+                    <u>Luz: </u>Se queda cegado por dos turnos, +20 de daño por cegera<br><br>
+                    <u>Sombra: </u> Las sombras atrapan al enemigo durante 2 turnos, +20 daño por miedo<br><br>
+                </td>
+                <td><strong>Zona elemental</strong><br>Genera una zona a tu alrededor (2 casillas) todos los enemigos en esa zona reciben 30 de daño (40 de maná)</td>
+                <td><strong>Estallido Elemental</strong>(60 de maná)<br>
+                    <u>Aire:</u> Viento cortante , 50 daño a todos los enemigos que estén en linea recta.<br><br>
+                    <u>Tierra:</u>terremoto, 50 daño a los enemigos alrededor (2 casillas)<br><br>
+                    <u>Fuego:</u>Llamarada, 50 daño en una casilla y sus adyacentes en forma de cruz (2 casillas de  distancia del mago)<br><br>
+                    <u>Agua:</u>Cañón de agua, 50 daño y hace retroceder 2 casillas a los enemigos que estén en linea recta.<br><br>
+                    <u>Electro:</u>Tormenta eléctrica, 50 de daño a todos los enemigos, los  paraliza 1 turno.<br><br>
+                    <u>Metal:</u>Agujas, salen agujas en toda la zona alrededor del mago (2 casillas) 50 daño.<br><br>
+                    <u>Madera</u>Bosque, crea un bosque a tu alrededor, 50 daño a los enemigos alrededor (2 casillas)<br><br>
+                    <u>Hielo</u>Tundra, 50 daño en una casilla y sus adyacentes en forma de cruz (2 casillas de distancia del mago)<br><br>
+                    <u>Luz</u>Rayo de luz, 50 daño y hace retroceder 2 casillas a los enemigos que estén en linea recta.<br><br>
+                    <u>Sombra</u>Zona oscura, todos los enemigos se vuelven ciegos 2 turnos y son golpeados por las sombras +50 daño. (3 turnos de recarga)
+                </td>
+                <td><strong>Recarga elemental:</strong><br>Puedes quitarte vida para recuperar maná.</td>
+                <td><strong>Armagedón: </strong><br>Entras en cólera y tu elemento junto a ti. Lanzas un haz de energía elemental hacia tu enemigo, haciendo el doble de daño de tu ataque mágico base.(100 maná)</td>
+            </tr>
+        </table>
+        <br>
+        <li>Clérigo: Magia divina de curación, son principalmente apoyo pero también tienen sus ataques. Defensa Mágica +10</li><br>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Curación</strong><br>Cura a todo tu grupo +30 (20 maná)</td>
+                <td><strong>Calma</strong><br> Reza a Endaryth para calmar la sed de sangre de tus enemigos durante 1 turno. (no atacarán ni se moverán) (30 maná)</td>
+                <td><strong>Valor</strong><br> Rezas a Wexzar para ganar un boost de A, AM, D y DM +15 durante 3 turnos.</td>
+                <td><strong>Sacrifico</strong><br> Haz que uno de tus aliados pueda atacar/esquivar a un enemigo sin necesidad de dado de acierto. A cambio sacrifica tu turno.</td>
+                <td><strong>Funeral</strong><br>Tras la muerte de un enemigo reza a Frizom para que lo guie con sus susurros al más allá. Tu grupo recibe una bendición y recupera 50 de vida. (40 maná)</td>
+                <td><strong>Oráculo de Lezkiar</strong><br> Rezas a Lezkiar y recuperas 50 puntos de maná.</td>
+
+                <td><strong>Invocar Dios</strong><br>Lanza dos dados (100 de maná) <br>
+
+                    <u>Endaryth (2, 3, 4):</u> Elimina la necesidad de tirar un dado para esquivar durante 2 turnos<br><br>
+                    <u>Wexzar (5, 6, 7):</u> Elimina la necesidad de tirar un dado para atacar durante 2 turnos<br><br>
+                    <u>Lezkiar (8, 9, 10):</u> Recupera la vida de todo el grupo al 100%<br><br>
+                    <u>Frizom (11, 12): </u> Mata a un enemigo. (Excepto Jefes finales)<br><br>
+                
+                </td>
+            </tr>
+        </table>
+        <br>
+        <li>Necromancer: Mata y une los cadáveres a tu ejercito. Ataque Mágico +5, Defensa Mágica +5</li><br>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Invocación</strong><br> Puedes revivir a 1 cadáver para que sea tu aliado. (20 maná)</td>
+                <td><strong>Llama azul</strong><br> Lanzas una bola de fuego azul que causa 30 de daño (20 maná)</td>
+                <td><strong>Amigos</strong><br> Puedes tener otro zombie. (pasiva)</td>
+                <td><strong>Explosión cadaver</strong><br> Haces explotar el/los muertos que controlas haciendo un total de 40 de daño por cadáver. (40 maná)</td>
+                <td><strong>Consumir</strong><br> Mata a uno de tus zombies y te recupera tantos puntos de salud como tenía de vida. (40 maná)</td>
+                <td><strong>Más allá</strong><br> Por cada zombie que hayas tenido haz 10 de daño a un enemigo.(60 maná)</td>
+                <td><strong>Día de los muertos</strong><br> Puedes tener hasta 5 zombies compañeros (pasiva)</td>
+            </tr>
+        </table>
+        <br>
+        <li>Druida: Hablas con animales y controlas las plantas. Ataque Mágico +5, Defensa Mágica +5</li><br>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Ayuda animal:</strong><br>Aúlla y un animal acudirá a tu ayuda durante (hasta que muera o lo cambies) (20 de maná)</td>
+                <td><strong>Crecimiento instantáneo:</strong><br> Hace crecer un árbol (o cualquier planta) e inflige 30 de daño +si tiene algún efecto extra la planta (efecto a convenir con el master). (20 maná)</td>
+                <td><strong>Enredaderas:</strong><br> Invocas enredaderas que paralizan a un enemigo durante 2 turnos. (30 maná)</td>
+                <td><strong>Esporas: </strong><br>causan daños en la respiración durante 3 turnos. 30 de daño por turno.(30 maná)</td>
+                <td><strong>Planta curativa:</strong><br> Hace crecer una planta comestible que recupera 50 de vida. (30 maná)</td>
+                <td><strong>Posesión animal:</strong><br> Los espíritus animales se unen a ti, dándote +30 en todos tus stats durante 3 turnos. (50 de maná)</td>
+                <td><strong>Jungla:</strong><br> Llenas el campo de batalla de arboles y plantas, lo cual hace que los enemigos no puedan moverse durante 3 turnos. (80 de maná)</td>
+            </tr>
+        </table>
+        <br>
+        <li>Warlock: Invocas seres de otro plano. Defensa Mágica +10</li><br>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Contrato:</strong><br>
+                    Tira un dado: (20 de maná) <br>
+                    <strong>1: diablillo-</strong> puede inmolarse contra un enemigo haciendo 20 de daño.<br>
+                    <strong>2: slug- </strong>puede lanzar un vomito venenoso (Vida -20) que envenena durante 3 tunros<br>
+                    <strong>3: alma en pena-</strong>  puede poseer a un NPC o monstruo y lo vuelve depresivo (no atacará) 2 turno, el alma desaparece después<br>
+                    <strong>4: Espectro vengativo</strong> Es un espiritu que lucha <br>
+                    <strong>5: Golem de magma </strong> Hace daño a todos los enemigos a su alrededor<br>
+                    <strong>6: Shinigami -</strong>  te ofrece un cuaderno de la muerte (puedes matar un enemigo (NO Jefes) a cambio de 5 de vida permanentes)<br>
+                </td>
+                <td><strong>Espadas espectrales</strong><br> Llamas a dos espadas de energía fantasmal. AM+10 cada una. (30 maná)</td>
+                <td><strong>Armadura espectral</strong><br> Genera una armadura de cuerpo completo que te otorga D+20 y DM+20 (30 de maná)</td>
+                <td><strong>Recolectar almas</strong><br> Cada vez que matas a un  enemigo te quedas su alma. Puedes dársela a tu invocación, lo cual subirá+5 todos sus stats.(pasiva)</td>
+                <td><strong>Ritual</strong><br> Puedes hacer un ritual de sangre. Esto maldecirá un enemigo. Cada turno se le restará 15 puntos a la vida hasta que muere. Pagas con 40 de vida (recuperable).</td>
+                <td><strong>Pacto con el diablo</strong><br> Puedes invocar a un demonio. Este te cambiará 20 puntos de tu vida máxima a cambio de 10 puntos de habilidad.</td>
+                <td><strong>Portal demoniaco</strong><br>Abres un portal al infierno del cual salen miles de demonios, estos atacan a todos tus enemigos, el daño
+                    que sufren es igual a tu Ataque Mágico. (100 maná)</td>
+            </tr>
+        </table>
+        <br>
+    </ul>
+</div>
+
+
+<p><strong>Altre:</strong></p>
+<div class="lista">
+    <ul>
+        <li>Alquimista: Creas pociones y venenos. Ataque Mágico +5, Defensa Mágica +5</li>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Generar poción:</strong><br>
+                    (maná 20)<br>
+                    -Poción de vida +20<br>
+                    -Poción de Maná +20<br>
+                </td>
+                <td><strong>Generar Stun:</strong><br>
+                    (maná 20)<br>
+                    -somnifero, paraliza durante 1 turnos
+                   
+                </td>
+                <td><strong>Generar veneno:</strong><br>
+                    (maná 30)<br>
+                    -Veneno potente arrojadizo, Vida -15 por 2 turnos
+                </td>
+                <td><strong>Más potencia:</strong><br> Aumenta las caracteristicas de tus pociones:<br> 
+                    -pociones +20 vida/maná<br> 
+                    -somnifero +1 turnos<br> 
+                    -veneno +15 daño<br> 
+                    (pasiva)
+                </td>
+                <td><strong>Coctail molotov:</strong><br> Lanza una poción que hace el daño de Ataque mágico base que tengas (40 maná)</td>
+                <td><strong> Multipocion:</strong><br>Lanza un dado, el número que te salga será el número de pociones que craftees. (solo un tipo a la vez) (60 maná) </td>
+                <td><strong>Maestro Alquímico:</strong><br> No necesitas maná, solo gastas tu turno de habilidad. Intercambia tu barra de maná por 10 puntos de habilidad.</td>
+            </tr>
+        </table>
+        <li>Bardo: Da apoyo con tu música y tu hermosa voz. O golpea a la gente con tu instrumento. Carisma +10</li>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Tocar instrumento:</strong><br> Tocas tu instrumento, tira un dado, ese número serán los NPC que te miran, los NPC te darán 
+                    dinero 2 de bronce por NPC que te esté viendo (20 maná)</td>
+                <td><strong>Banda sonora:</strong><br> Tus aliados ganan +10 en todos sus stats mientras tocas (30 de maná)</td>
+                <td><strong>Conciertos callejeros:</strong><br>Inmoviliza a todos los enemigos durante 2 turno (30 de maná)</td>
+                <td><strong>Volumen alto:</strong><br> Atacas con tu música, tu nivel de carisma es el daño que haces (50 maná)</td>
+                <td><strong>Escaquearse:</strong><br>Tocas y distraes a la gente, te vas de la zona sin que nadie se de cuenta. Si estabas luchando contra guardias pasas a estar en busca y captura. (40 maná)</td>
+                <td><strong>Ligón de discoteca:</strong><br> Puedes convencer de cualquier cosa (60 maná)</td>
+                <td><strong>Estrella del Rock</strong><br>Te pones a tocar mientras toques no puedes hacer nada. Pero todos los
+                    enemigos a 5 cuadros de distancia (JEFES NO) recibirán 30 puntos de daño por turno.(100 maná)</td>
+            </tr>
+        </table>
+        <li>Ladrón: Shhh, roba y golpea desde las sombras. Agilidad +10</li>
+        <table>
+            <tr>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+                <th>Nivel 5</th>
+                <th>Nivel 6</th>
+                <th>Nivel 7</th>
+            </tr>
+            <tr>
+                <td><strong>Golpe traicionero:</strong><br>Golpeas por detrás 20 de daño, si estás en sigilo 40 de daño (20 de maná)</td>
+                <td><strong>Sigilo:</strong><br> Te vuelves invisible hasta que golpeas o eres dañado de alguna forma (20 de maná)</td>
+                <td><strong>Bola de humo:</strong><br>Abandonas el combate y te trasladas a una zona colindante del mapa. 
+                    Si estás luchando contra un guardia entras en busca y captura excepto si usas el Rezo a Frizom (30 de maná)</td>
+                <td><strong>Lanzar cuchillo:</strong><br>Puedes lanzar uno de tus cuchillos hasta 3 casillas de distancia, puedes tener los cuchillos en tu inventario. 30 de daño. (30 de maná)</td>
+                <td><strong>Inventario infinito:</strong><br>Puedes llevar todo lo que quieras encima, mula de carga. (pasiva)</td>
+                <td><strong>Baile de las dagas</strong><br>Tira un dado. Lo que saques x15 (50 maná)</td>
+                <td><strong>Rezo a Frizom</strong><br>
+                    Como ladrón encomiendas tu alma al dios de la muerte para que perdone tus pecados y te guie a su reino. Esto hace que
+                    ningún personaje del juego se acuerde de nada malo que hayas hecho. Tus pecados se perdonan y tu ganas un boost de bendición
+                    durante 5 turnos tus stats son +20 (excepto vida) (100 maná)</td>
+            </tr>
+        </table>
+    </ul>
+</div>
+</body>
+</html>
